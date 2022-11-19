@@ -8,6 +8,74 @@
   </head>
   <body>
     <h1>Table template</h1>
+    <div id = "container">
+      <table>
+        <colgroup>
+
+          <col />
+          <col />
+          <col style="border-color: black; border-style: solid; " id="first-row" />
+        </colgroup>
+        <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
+        <th colspan="2">
+
+          
+          <td class="bolded">Name</td>
+          <td class="bolded">Mass (10<sup>24</sup>kg)</td>
+          <td class="bolded">Diameter (km)</td>
+          <td class="bolded">Density (kg/m<sup>3</sup>)</td>
+          <td class="bolded">Gravity (m/s<sup>2</sup>)</td>
+          <td class="bolded">Length of day (hours)</td>
+          <td class="bolded">Distance from Sun (10<sup>6</sup>km)</td>
+          <td class="bolded">Mean temperature (°C)</td>
+          <td class="bolded">Number of moons</td>
+          <td class="bolded">Notes</td>
+        </th>
+        <tr>
+
+          <!-- ROW ONE -->
+          <td colspan="2" rowspan="4" class="bolded">Terrestrial planets</td>
+          <td class="bolded">Mercury</td>
+        </tr>
+
+        <tr>
+          <td class="bolded" >Venus</td>
+        </tr><tr>
+          <td class="bolded">Earth</td>
+        </tr><tr>
+          <td class="bolded">Mars</td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="4" class="bolded">Jovian giants</td>
+
+          <!-- ROW TWO -->
+          <td rowspan="2" class="bolded">Gas giants</td>
+          <td class="bolded">Jupiter</td>
+        </tr>
+        <tr>
+          <td class="bolded">Saturn</td>
+        </tr>
+        <tr>
+
+          <!-- ROW THREE -->
+          <td rowspan="2" class="bolded">Ice giants</td>
+          <td class="bolded">Uranus</td>
+        </tr>
+        <tr>
+          <td class="bolded">Neptune</td>
+        </tr>
+        <tr>
+
+          <!-- ROW FOUR -->
+        </tr>
+
+        <tr> </tr>
+        <tr>
+          <td colspan="2" class="bolded">Dwarf planets</td>
+          <td class="bolded">Pluto</td>
+        </tr>
+      </table>
+    </div>
 
 
   </body>
